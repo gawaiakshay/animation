@@ -1,0 +1,37 @@
+.main{
+    height: 200px;
+    width: 200px;
+    border: 5px solid yellow;
+    border-radius: 30px;
+    box-shadow: 5px 10px #888888;
+    animation-name: akshay;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    margin-top: 200px;
+
+    
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+
+@keyframes akshay{
+    10%{background-color: blue;}
+    20%{transform: rotate(45deg);}
+    30%{background-color: brown;}
+    40%{background-color: aqua;}
+    50%{background-color: blueviolet;}
+    60%{transform: translate(900px);}
+    70%{transform: 200px;}
+    80%{transform: rotate(145deg);}
+    90%{background-color: deeppink;}
+    100%{background-color: chartreuse;}
+
+
+
+    
+}
